@@ -64,7 +64,7 @@ set oldver=0
 )
 
 ::downloadinfo
-echo STATUS: Dowloading new info.txt
+echo STATUS: Downloading new info.txt
 busybox wget -O info.txt %infourl%
 if exist info.txt (
 echo --info.txt download successful!
@@ -99,7 +99,7 @@ echo %date% %time%: No new commands available, exiting [0] >> updatrr_log.txt
 )
 
 ::downloadnew
-echo STATUS: Dowloading new commands
+echo STATUS: Downloading new commands
 busybox wget -O commands.cmd %comurl%
 if exist commands.cmd (
 echo --New commands downloaded!
