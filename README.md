@@ -71,15 +71,15 @@ exit
 <li>
 <b>UPDATRR with BusyBox</b>: 
 <code>32bit</code>/
-<code>64bit</code> This is the smallest package, but doesn't support HTTPS (download <code>updatrr_busybox.cmd</code> and <code>busybox.exe</code>)
+<code>64bit</code> This is the smallest package, but doesn't support HTTPS (download <code>busybox/updatrr_busybox.cmd</code> and <code>busybox/busybox.exe</code>)
 </li>
 <li>
 <b>UPDATRR with Wget</b>: 
-<code>32bit</code> This package supports HTTPS (download <code>updatrr_wget.cmd</code> and <code>wget32.exe</code>, then rename it to <code>wget.exe</code>)
+<code>32bit</code> This package supports HTTPS (download <code>wget/updatrr_wget.cmd</code> and <code>wget/wget32.exe</code>, then rename it to <code>wget.exe</code>)
 </li>
 <li>
 <b>UPDATRR with Wget</b>: 
-<code>64bit</code> This package supports HTTPS (download <code>updatrr_wget.cmd</code> and <code>wget64.exe</code>, then rename it to <code>wget.exe</code>)
+<code>64bit</code> This package supports HTTPS (download <code>wget/updatrr_wget.cmd</code> and <code>wget/wget64.exe</code>, then rename it to <code>wget.exe</code>)
   <br>
 </li>
 </ul>
