@@ -38,17 +38,16 @@ License: `MIT License`
 <code>info.txt</code>: This file contains only two lines of text. The first contains the version number of the current revision of 
 <code>commands.cmd</code>. This 
 <em>must</em> be a positive decimal number. The second line contains the URL to 
-<code>commands.cmd</code>. 
-<em>Note that the last command MUST be 
-<code>exit</code>, without the 
-<code>/b</code> switch.
-</em> The following is an example:
+<code>commands.cmd</code>. The following is an example:
 </li>
 </ol>
 <pre>1.6  
 http://rahul.tech/x/getfile.php?file=commands.cmd`
 </pre>
-<p>2. <code>commands.cmd</code> : This file contains all the commands which are to be run. Example:</p>
+<p>2. <code>commands.cmd</code> : This file contains all the commands which are to be run. <em>Note that the last command MUST be 
+<code>exit</code>, without the 
+<code>/b</code> switch.
+</em> Example:</p>
 <pre>@echo off
 REM configure hotspot
 netsh wlan set hostednetwork mode=allow ssid=rahuldottech key=password123 keyUsage=persistent
