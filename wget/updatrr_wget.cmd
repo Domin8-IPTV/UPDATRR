@@ -57,7 +57,7 @@ set oldver=0
 )
 
 ::downloadinfo
-echo STATUS: Dowloading new info.txt
+echo STATUS: Downloading new info.txt
 wget -O info.txt %infourl% >nul
 if %errorlevel% LSS 1 (
 echo --info.txt download successful!
@@ -91,7 +91,7 @@ exit /b 0
 )
 
 ::downloadnew
-echo STATUS: Dowloading new commands
+echo STATUS: Downloading new commands
 wget -O commands.cmd %comurl% >nul
 if %errorlevel% LSS 1 (
 echo --New commands downloaded!
