@@ -21,7 +21,7 @@ License: `MIT License`
 <ol>
 <li>Windows XP* or later</li>
 <li>An internet connection</li>
-<li>BusyBox or Wget executables (more on this later)
+<li>Powershell or BusyBox or Wget executables (more on this later)
 <br> *
 <em>(It is strongly recommended that you update to Windows 7 at the very minimum, XP is very insecure)</em>
 </li>
@@ -68,17 +68,22 @@ exit
 
 <ul>
 <li>
+<b>UPDATRR with Powershell</b>: 
+<code>32bit</code>/
+<code>64bit</code> The smallest package, doesn't require any other executables. Tested on Windows 8 and later. Supports HTTPS. <i>(Download <code>powershell/updatrr_powershell.cmd</code>)</i>. <b>This is the recommended package.</b><br>
+</li>
+<li>
 <b>UPDATRR with BusyBox</b>: 
 <code>32bit</code>/
-<code>64bit</code> This is the smallest package, but doesn't support HTTPS (download <code>busybox/updatrr_busybox.cmd</code> and <code>busybox/busybox.exe</code>)
+<code>64bit</code> This is smaller than the <code>wget</code> package, but doesn't support HTTPS. Use only if powershell isn't an option. </i>(Download <code>busybox/updatrr_busybox.cmd</code> and <code>busybox/busybox.exe</code>)</i><br>
 </li>
 <li>
 <b>UPDATRR with Wget</b>: 
-<code>32bit</code> This package supports HTTPS (download <code>wget/updatrr_wget.cmd</code> and <code>wget/wget32.exe</code>, then rename it to <code>wget.exe</code>)
+<code>32bit</code> This package supports HTTPS. <i>(Download <code>wget/updatrr_wget.cmd</code> and <code>wget/wget32.exe</code>, then rename it to <code>wget.exe</code>)</i><br>
 </li>
 <li>
 <b>UPDATRR with Wget</b>: 
-<code>64bit</code> This package supports HTTPS (download <code>wget/updatrr_wget.cmd</code> and <code>wget/wget64.exe</code>, then rename it to <code>wget.exe</code>)
+<code>64bit</code> This package supports HTTPS. <i>(Download <code>wget/updatrr_wget.cmd</code> and <code>wget/wget64.exe</code>, then rename it to <code>wget.exe</code>)</i><br>
   <br>
 </li>
 </ul>
