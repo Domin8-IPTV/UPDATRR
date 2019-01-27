@@ -5,8 +5,6 @@ UPDATRR v1.0 Wget
 [-]	Check https://rahul.tech/ for more help,
 	additional scripts, tips, updates, bug
 	fixes, etc.
-[-]	Contact code[at]mydomain for any help/
-	queries/suggestions/etc.
 -------------------
 
 :main
